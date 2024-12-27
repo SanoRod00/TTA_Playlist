@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1a2aad;
+            margin-bottom: 20px;
+        }
+
+        .playlist {
+            display: grid;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card .details {
+            padding: 15px;
+        }
+
+        .card .details h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .card .details p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .play-button {
+            background-color: #6a4ff0;
+            border: none;
+            border-radius: 50%;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px auto 10px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .play-button:hover {
+            transform: scale(1.1);
+            background-color: #5140d9;
+        }
+
+        .play-button i {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Playlist</h1>
+    <div class="playlist">
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>1. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>2. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>3. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>4. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>5. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>6. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>7. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./wallpaper.jpeg" alt="Song Image">
+            <div class="details">
+                <h3>8. Song Name</h3>
+                <p>Artist Name</p>
+                <button class="play-button">
+                    <i>▶</i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+        
+
+        
+
+      
+        
+         
